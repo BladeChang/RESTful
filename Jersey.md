@@ -68,7 +68,7 @@
 			mvn clean package
 	>
 	執行完畢 war當產生路徑 *"./target/simple-service-webapp.war"*
-		- 注意:你的servlet container 必須要支援Servlet2.5或更新的版本.
+	- 注意:你的servlet container 必須要支援Servlet2.5或更新的版本.
 	
 	>2.Creating a Web Application that can be deployed on Heroku
 	>
