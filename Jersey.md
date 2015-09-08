@@ -57,7 +57,6 @@
 	>顯示下圖表示你已經成功建立你的第一個RESTful Project
 	
 	>![](http://i.imgur.com/8mP6sVD.jpg)
-<<<<<<< HEAD
 
 4. **其它類型專案 Maven Commands**
 	1. Creating a JavaEE Web Application
@@ -75,6 +74,4 @@
 		>
 			mvn archetype:generate -DarchetypeArtifactId=jersey-heroku-webapp -DarchetypeGroupId=org.glassfish.jersey.archetypes -DinteractiveMode=false -DgroupId=com.example -DartifactId=simple-heroku-webapp -Dpackage=com.example -DarchetypeVersion=2.21
 		>
-=======
-	>
->>>>>>> origin/master
+
