@@ -1,6 +1,6 @@
 # Jersey Tutorial #
 
-## Create a Jersey Project with Maven ##
+## Create First Jersey Project with Maven ##
 1. **Setup the Maven with window**
 	1. 參考 [https://maven.apache.org/install.html](https://maven.apache.org/install.html "安裝Maven")
 	2. 有關proxy設定:
@@ -57,4 +57,20 @@
 	>顯示下圖表示你已經成功建立你的第一個RESTful Project
 	
 	>![](http://i.imgur.com/8mP6sVD.jpg)
-	>
+
+4. **其它類型專案 Maven Commands**
+	1. Creating a JavaEE Web Application
+		>
+			mvn archetype:generate -DarchetypeArtifactId=jersey-quickstart-webapp -DarchetypeGroupId=org.glassfish.jersey.archetypes -DinteractiveMode=false -DgroupId=com.example -DartifactId=simple-service-webapp -Dpackage=com.example -DarchetypeVersion=2.21
+		>
+		執行
+		>
+			mvn clean package
+		>
+		>執行完畢 war當產生路徑 *"./target/simple-service-webapp.war"*
+		- 注意:你的servlet container 必須要支援Servlet2.5或更新的版本.
+		>
+	2. Creating a Web Application that can be deployed on Heroku
+		>
+			mvn archetype:generate -DarchetypeArtifactId=jersey-heroku-webapp -DarchetypeGroupId=org.glassfish.jersey.archetypes -DinteractiveMode=false -DgroupId=com.example -DartifactId=simple-heroku-webapp -Dpackage=com.example -DarchetypeVersion=2.21
+		>
