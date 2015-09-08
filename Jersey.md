@@ -1,6 +1,6 @@
 # Jersey Tutorial #
 
-## Create a Jersey Project with Maven ##
+## Create First Jersey Project with Maven ##
 1. **Setup the Maven with window**
 	1. 參考 [https://maven.apache.org/install.html](https://maven.apache.org/install.html "安裝Maven")
 	2. 有關proxy設定:
